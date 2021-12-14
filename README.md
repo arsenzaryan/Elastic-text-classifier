@@ -1,11 +1,11 @@
-##Method
+## Method
 The search functionality of Elasticsearch can be modified a bit to act
  as a text classifier. For that, all the data with its labels should be loaded
  to a separate index. Then, for a given query, all the hits that match it can be parsed 
  and their statistics aggregated to obtain prediction probabilities.
  
  
- ##Code
+ ## Code
  The jupyter notebook defines all the functions needed to implement the 
 'Elasticsearch Text Classifier'. It also demonstrates an actual realization of the idea 
 for a toy data.
